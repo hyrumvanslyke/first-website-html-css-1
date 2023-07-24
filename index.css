@@ -1,0 +1,39 @@
+
+/* RESET CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: blueviolet;
+    height: 60px;
+    padding: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p{
+    color: aliceblue;
+    font-size: 26px;
+    /* padding: 1px 30px 8px 12px; GOES IN A CLOCKWISE MANNER */
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    border: 5px solid blueviolet;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 8px 8px 0px opx;
+}
